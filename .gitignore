@@ -15,5 +15,6 @@ npm-debug.log
 .idea
 .vscode
 /build/
-
+/public/*.js
+/public/*.css
 
