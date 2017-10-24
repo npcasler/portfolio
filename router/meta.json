@@ -1,0 +1,22 @@
+{
+  "/": {
+    "title": "ncasler.net",
+    "description": "Home",
+    "keywords": "ncasler,gis,webdev,data science,geospatial"
+  },
+  "/inspire": {
+    "title": "Create something amazing",
+    "description": "",
+    "keywords": ""
+  },
+  "/about": {
+    "title": "About me",
+    "description": "",
+    "keywords": ""
+  },
+  "/projects": {
+    "title": "Projects",
+    "description": "A list of previous projects",
+    "keywords": ""
+  }
+}
