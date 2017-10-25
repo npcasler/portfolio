@@ -30,7 +30,7 @@
       <v-spacer></v-spacer>
     </v-toolbar>
     <main>
-      <v-content>
+      <v-content class="topo">
         <v-container fluid>
           <v-slide-y-transition mode="out-in">
             <router-view class="mt-5"></router-view>
@@ -71,4 +71,9 @@
 
 <style lang="stylus">
   @import './stylus/main'
+
+  .topo { 
+    background-image: url('/static/topography.png');
+	background-repeat: repeat;
+  }
 </style>
