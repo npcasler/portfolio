@@ -18,5 +18,10 @@
     "title": "Projects",
     "description": "A list of previous projects",
     "keywords": ""
+  },
+  "/projects/PP2G": {
+    "title": "Projects/PP2G",
+    "description": "Parallel points 2 grid",
+    "keywords": ""
   }
 }

@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Inspire from '../components/Inspire'
+import Welcome from '../components/Welcome'
+import About from '../components/About'
+import ProjectList from '../components/ProjectList'
+
 // The meta data for your routes
 const meta = require('./meta.json')
 
@@ -14,6 +19,7 @@ function route (path, view) {
   }
 }
 
+
 Vue.use(Router)
 
 export function createRouter () {
@@ -21,24 +27,23 @@ export function createRouter () {
       base: __dirname,
       mode: 'history',
       scrollBehavior: () => ({ y: 0 }),
-      routes: [
-        route('/', 'Welcome'),
-        route('/inspire', 'Inspire'),
-        route('/about', 'About'),
-        route('/projects', 'Projects'),
-        // Global redirect for 404
-        { path: '*', redirect: '/' }
+      routes: [ 
+        { path: '/', component: Welcome },
+        { path: '/inspire', component: Inspire },
+        { path: '/about', component: About },
+        { path: '/projects', component: ProjectList},
+        { path: '*', redirect: '/'}
       ]
     })
 
     // Send a pageview to Google Analytics
-    router.beforeEach((to, from, next) => {
+    /*router.beforeEach((to, from, next) => {
         if (typeof ga !== 'undefined') {
             ga('set', 'page', to.path)
             ga('send', 'pageview')
         }
         next()
-    })
+    })*/
 
     return router
 }

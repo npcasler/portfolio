@@ -10,7 +10,6 @@
 		    <li><p>BIEN</p></li>
 			<li><p>AFRI</p></li>
 			<li><p>NRCS</p></li>
-			<li><p>PP2G</p></li>
 		  </ol>
 		</v-card-text>
 		<v-card-actions>

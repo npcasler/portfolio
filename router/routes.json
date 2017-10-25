@@ -1,0 +1,11 @@
+
+  { 'path': '/', 'component': 'pages/WelcomeView.vue' },
+  { 'path': '/inspire', 'component': 'pages/InspireView.vue' },
+  { 'path': '/about', 'component': 'pages/AboutView.vue' },
+  { 'path': '/projects', 'component': 'pages/ProjectsView.vue',
+    'children': [
+      { 'path': '/pp2g', 'component': 'pages/Projects/PP2GView.vue'}
+    ]
+  },
+  { 'path': '*', 'redirect': '/' }
+
