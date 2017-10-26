@@ -73,7 +73,7 @@
   @import './stylus/main'
 
   .topo { 
-    background-image: url('/static/topography.png');
+    background-image: url('/static/topography_alpha.png');
 	background-repeat: repeat;
   }
 </style>
