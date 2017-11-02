@@ -1,5 +1,5 @@
-import Vuetify from './Vuetify'
-
+//import Vuetify from './Vuetify'
+import * as d3 from 'd3'
 export default {
-  Vuetify
+  d3,
 }

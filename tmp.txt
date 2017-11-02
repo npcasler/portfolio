@@ -1,0 +1,11 @@
+	    { 'name': 'tmp', 'src': 'High resolution data is pretty awesome, it provides us with more details about our world.
+	  The new 3DEP initiative in the USGS is promising to have 1-meter coverage for the
+	  contiguous 48 states within 5 years, which will be a huge leap from the current 10-30m 
+	  products. 
+	 
+	  Unfortunately this increase in detail also brings an increase in noise and bias.
+	  I feel that the noise issue in LiDAR data is reflective of a lot of the problems
+	  that arise when data gets big. Small, somewhat unnoticed issues produce large changes in output.
+	  When looking to process a dataset several Petabytes in size, it is important to
+	  figure out a general workflow and identify the most difficult and/or time consuming pieces.' }
+

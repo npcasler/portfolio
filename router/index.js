@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Inspire from '../components/Inspire'
 import Welcome from '../components/Welcome'
 import About from '../components/About'
 import ProjectList from '../components/ProjectList'
-
+import LineChart from '../components/VueLineChart.vue'
+import Chart from '../components/Chart.vue'
 // The meta data for your routes
 const meta = require('./meta.json')
 
@@ -28,11 +28,11 @@ export function createRouter () {
       mode: 'history',
       scrollBehavior: () => ({ y: 0 }),
       routes: [ 
-        { path: '/', component: Welcome },
-        { path: '/inspire', component: Inspire },
+        { path: '/welcome', component: Welcome },
         { path: '/about', component: About },
         { path: '/projects', component: ProjectList},
-        { path: '*', redirect: '/'}
+        { path: '/chart', component: Chart},
+        { path: '*', redirect: '/welcome'}
       ]
     })
 
